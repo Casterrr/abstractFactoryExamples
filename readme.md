@@ -25,7 +25,3 @@ No segundo exemplo, aplicamos o padrão Abstract Factory para criar uma fábrica
 ## Como Utilizar
 
 Cada exemplo contém sua própria implementação e demonstração do padrão de projeto Abstract Factory. Basta explorar os diretórios correspondentes para ver os códigos-fonte e exemplos de uso.
-
-## Licença
-
-Este projeto está licenciado sob a Licença MIT - consulte o arquivo [LICENSE.md](LICENSE.md) para mais detalhes.

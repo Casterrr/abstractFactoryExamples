@@ -7,12 +7,12 @@ import abstractfactory.computers.interfaces.factories.ComputerFactory;
 
 public class Main {
   public static void main(String[] args) {
-    // Criando uma fábrica concreta de produtos de alto nível
+    // Criando uma fábrica concreta de produtos de alta qualidade
     ComputerFactory highEndFactory = new HighEndComputerFactory();
     // Criando uma fábrica concreta de produtos acessíveis
     ComputerFactory AffordableFactory = new AffordableComputerFactory();
 
-    // Produzindo um notebook de alto nível
+    // Produzindo um notebook de alta qualidade
     Computer highEndNotebook = highEndFactory.produceNotebook();
     highEndNotebook.turnOn();  // Saída: Ligando o sistema...
     highEndNotebook.showGUI();  // Saída: Carregando interface gráfica do sistema...
